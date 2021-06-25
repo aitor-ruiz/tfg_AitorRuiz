@@ -1,0 +1,45 @@
+#imagen-perfil{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.titulos{
+    font-family: 'Itim', cursive !important;
+}
+
+#boton-cerrar{
+    font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #a33e74;
+    text-shadow: 0 0 5px #30f38c;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+}
+
+#boton-perfil{
+    font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #30f38c;
+    text-shadow: 0 0 5px #a33e74;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+#contenido{
+    background-color: #eaf4ef;
+}
+
+#cabecera{
+    background-color: #b394a4;
+    font-family: 'Itim', cursive !important;
+    font-size: 1.4em;
+}
+
+#cabecera .navbar-brand{
+    font-size: 1.2em;
+}

@@ -1,0 +1,17 @@
+Call to undefined function RecursiveArrayIterator()0.83984100 1619459663
+Call to undefined function RecursiveArrayIterator()0.63632900 1619459695
+Call to undefined function RecursiveArrayIterator()0.86781900 1619459696
+Call to undefined function RecursiveArrayIterator()0.23174900 1619459697
+Call to undefined function RecursiveArrayIterator()0.51322900 1619459697
+Call to undefined function RecursiveArrayIterator()0.74386300 1619459697
+Call to undefined function RecursiveArrayIterator()0.94550200 1619459697
+Call to undefined function RecursiveArrayIterator()0.96579300 1619459720
+Call to undefined function RecursiveArrayIterator()0.42976500 1619459721
+Too few arguments to function Usuario::__construct(), 6 passed in D:\Xampp\htdocs\proyecto_centro\app\Models\UsuarioModel.php on line 21 and exactly 9 expected0.82219800 1620031594
+Call to undefined function prepare()0.84263900 1621769971
+Call to undefined function prepare()0.10466200 1621770381
+Call to undefined function prepare()0.46173300 1621770505
+Call to undefined function prepare()0.30474300 1621770616
+Call to undefined function prepare()0.88879200 1621770789
+Call to undefined function prepare()0.46031400 1621771339
+Call to undefined function prepare()0.54235600 1621771385

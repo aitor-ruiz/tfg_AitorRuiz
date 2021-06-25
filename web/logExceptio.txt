@@ -1,0 +1,26 @@
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 10.42865300 1619458022
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 10.18820800 1619458026
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 10.63818700 1619458026
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.58703000 1620026617
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.00181000 1620026622
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.43216800 1620026656
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.22334800 1620026730
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.65819700 1620026734
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.24985800 1620026793
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.05825800 1620026798
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.97196200 1620026835
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.97219000 1620026835
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.13007100 1620026942
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.13035000 1620026942
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.31244200 1620026964
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.31269000 1620026964
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.65866200 1620026969
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.65892700 1620026969
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.11867000 1620027044
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.11899200 1620027044
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.84773100 1620027064
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.84798100 1620027064
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.80355600 1620027073
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.80379400 1620027073
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.07484700 1620027086
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'where clause'0.07507800 1620027086

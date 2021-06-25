@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+#imagen-perfil{
+    width: 100%;
+    border-radius: 15%;
+}
+
+.titulos{
+    font-family: 'Itim', cursive !important;
+}
+
+#boton-cerrar{
+    font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #a33e74;
+    text-shadow: 0 0 5px #30f38c;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+}
+
+a.boton-normal{
+    font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #30f38c;
+    text-shadow: 0 0 5px #a33e74;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+a.boton-normal-movil{
+	 font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #30f38c;
+    text-shadow: 0 0 5px #a33e74;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+input.boton-publicar{
+	font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #30f38c;
+    text-shadow: 0 0 5px #a33e74;
+    border-radius: 15px;
+    text-align: center;
+    color: #eaf4ef;
+    font-weight: bold;
+    margin-right: 25px;
+    border: none;
+}
+
+a.posts {
+	text-decoration: none;
+}
+.posts > img{
+	width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+li.usuario{
+	color:black; 
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#contenido{
+    background-color: #eaf4ef;
+}
+
+#cabecera{
+    background-color: #b394a4;
+    font-family: 'Itim', cursive !important;
+    font-size: 1.4em;
+}
+
+#cabecera .navbar-brand{
+    font-size: 1.2em;
+}
