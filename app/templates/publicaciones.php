@@ -3,7 +3,7 @@
 <div class="row">
 
 <?php foreach($parametros['posts'] as $fila=>$columna): ?>
-		<div class="col-12 col-md-4 mb-3 p-3"><a href="#" class="posts">
+		<div class="col-12 col-md-4 mb-3 p-3"><a href="index.php?ctl=perfil&usuario" class="posts">
 		<img src="<?php echo $columna['imagen_post']?>" class="img-fluid">
 		<ul class="list-group list-group-flush">
 			<li class="list-group-item usuario"><?php echo $columna['usuario']?></li>

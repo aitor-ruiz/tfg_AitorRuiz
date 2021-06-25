@@ -5,6 +5,10 @@
     border-radius: 15%;
 }
 
+#imagen-miperfil{
+    width: 100%;
+}
+
 .titulos{
     font-family: 'Itim', cursive !important;
 }
@@ -31,7 +35,17 @@ a.boton-normal{
     font-weight: bold;
     margin-right: 25px;
 }
-
+a.boton-editar{
+	  font-family: 'Itim', cursive !important;
+    font-size: 1.2em;
+    background: #30f38c;
+    text-shadow: 0 0 5px #a33e74;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #eaf4ef;
+    margin-right: 25px;
+}
 a.boton-normal-movil{
 	 font-family: 'Itim', cursive !important;
     font-size: 1.2em;

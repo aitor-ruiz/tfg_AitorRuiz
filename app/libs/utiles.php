@@ -94,7 +94,7 @@ function cBio($bio){
 }
 
 function cTitulo($texto){
-    $validar = preg_match("/^[\+\/\\a-zñ0-9.,@$&*_-][\+\/\\a-zñ0-9.,@$&*_-]{0,19}$/i", quitarTildes($texto));
+    $validar = preg_match("/^[\+\/\\a-zñ0-9.,@$&*_-][\+\/\\a-zñ0-9.,@$&*_-]{0,50}$/i", quitarTildes($texto));
     return $validar;
 }
 

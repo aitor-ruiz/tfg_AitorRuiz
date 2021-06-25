@@ -122,7 +122,10 @@ class Controller
     }
     
     public function mi_perfil(){
-        
+        $parametros = [];
+        $postModel = new PostModel();
+        $usuario = $_SESSION['usuario'];
+        $parametros['publicaciones'] = $postModel->traerPostsUsuario($usuario->usuario);     
         
         require __DIR__ . '/templates/mi-perfil.php';
     }

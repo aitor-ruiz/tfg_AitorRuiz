@@ -21,10 +21,7 @@
 						<ul class="navbar-nav me-auto">
 							<a class="navbar-brand" href="#">Mi Red</a>
 						</ul>
-
-						<ul class="navbar-nav d-flex">
-							<?php if ($_SESSION["permiso"]==0) :?><li class="nav-item"><a class="nav-link" href="index.php?ctl=iniciar-sesion">Iniciar Sesión</a></li><?php endif;?>
-						</ul>
+						
 					</div>
 				</nav>
 			</header>
@@ -35,6 +32,20 @@
 				<!--Contenido Principal menuIzq + contenido-->
 				
 				<!--MENÚ IZQUIERDA-->
+				<?php if($_SESSION['permiso']==0) : ?>
+				<div class="d-none d-md-block d-lg-block col-4 p-3" id="menu-izquierda">
+				<ul class="nav flex-column">
+				<div class="row mt-3">
+					<h2 class="titulos mb-3">Bienvenidos a miRed</h2>
+    				<ul class="nav justify-content-center">
+    					<?php if ($_SESSION["permiso"]==0) :?><li class="nav-item"><a class="nav-link boton-normal" href="index.php?ctl=iniciar-sesion">Iniciar Sesión</a></li><?php endif;?>	
+    					<?php if ($_SESSION["permiso"]==0) :?><li class="nav-item"><a class="nav-link boton-normal" href="index.php?ctl=publicaciones">Publicaciones</a></li><?php endif;?>			
+    				</ul>
+				</div>
+				</ul>
+				</div>
+				<?php endif;?>
+				
 				<?php if($_SESSION['permiso']>=1) : ?>
 				<div class="d-none d-md-block d-lg-block col-4 p-3" id="menu-izquierda">
 					<h2 class="titulos">Hola <?php echo $_SESSION['usuario']->usuario ?>!</h2>
@@ -56,7 +67,7 @@
 						</li>
 						
 						<div class="row">
-							<?php if ($_SESSION["permiso"]>=1) :?><li class="nav-item"><a class="nav-link" href="#">Mi perfil</a></li><?php endif;?>
+							<?php if ($_SESSION["permiso"]>=1) :?><li class="nav-item"><a class="nav-link" href="index.php?ctl=mi-perfil">Mi perfil</a></li><?php endif;?>
 							<?php if ($_SESSION["permiso"]>=1) :?><li class="nav-item"><a class="nav-link" href="#">Mis Compañeros</a></li><?php endif;?>
 							<?php if ($_SESSION["permiso"]>=1) :?><li class="nav-item"><a class="nav-link" href="index.php?ctl=publicaciones">Publicaciones</a></li><?php endif;?>
 							<?php if ($_SESSION["permiso"]>=2) :?><li class="nav-item"><a class="nav-link" href="index.php?ctl=registrar-usuario">Registrar usuario</a></li><?php endif;?>
@@ -70,7 +81,7 @@
 				</div>
 				
 				<?php endif;?>
-				<div class="<?php echo ($_SESSION["permiso"]>=1) ? "col-12 col-md-8 col-lg-8 p-3" : "col-12" ?>" id="contenido">
+				<div class="col-12 col-md-8 col-lg-8 p-3" id="contenido">
 					<!--Aquí añadimos el contenido-->
             		<?php echo $contenido; ?>
 				</div>

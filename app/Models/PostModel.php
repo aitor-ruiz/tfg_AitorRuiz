@@ -26,6 +26,24 @@ class PostModel extends Model{
         }
     }
     
+    public function traerPostsUsuario($usuario){
+        try{
+            $stmt = self::prepare("SELECT * FROM posts where usuario=:valor1" );
+            $stmt->bindParam(":valor1", $usuario);
+            $stmt->execute();
+            
+            
+            return $stmt->fetchAll(PDO::FETCH_ASSOC); // Devuelve = Array ( [id_permiso] => x [tipo_permiso] => x )
+         
+            
+            
+        }catch (Exception $e){
+            error_log($e->getMessage() . microtime() . PHP_EOL, 3, "logExceptio.txt");
+        } catch (Error $e) {
+            error_log($e->getMessage() . microtime() . PHP_EOL, 3, "logError.txt");
+        }
+    }
+    
     public function traerPost($id_post){
         try{
             $stmt = self::prepare("SELECT * FROM posts where id_post=:valor1" );
